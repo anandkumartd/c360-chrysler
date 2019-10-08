@@ -1,0 +1,35 @@
+.div-body-revenue {
+  height: 120px;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C9C7C5;
+  margin:25px 10px 25px 10px;
+}
+.reventTable{
+  width:100%;
+  text-align: center;
+  height:100%;
+  vertical-align:middle;
+}
+.reventTable .figures td{
+  padding:10px 0px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #514F4D;
+}
+.reventTable p.title {
+  font-size: 13px;
+  font-weight: 400;
+}   
+.reventTable h5{
+  margin:0px;
+  font-size: 30px;
+  font-weight:400;
+}
+.innercontainer{
+  display:table;
+  width:100%;
+  height:100%;
+  vertical-align:middle
+}

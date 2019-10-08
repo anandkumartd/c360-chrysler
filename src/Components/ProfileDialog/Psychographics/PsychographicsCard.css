@@ -1,0 +1,80 @@
+ul.subscriptions li svg{
+width:30px;
+height:30px;
+overflow:visible;
+}
+ul.subscriptions li.psvideo svg {
+	width:25px;
+}
+ul.subscriptions li.psnow svg {
+	width:25px;
+}
+
+ul.subscriptions li.inactive span{
+	background-color:#DDDBDA;
+}
+ul.subscriptions li.active span{
+background-color:#1da1f2;
+}
+ul.subscriptions li svg {
+	color:#ffffff;
+	margin-top:14px;
+}
+ul.subscriptions{
+	display:flex;
+	flex-wrap: wrap;
+	text-align: center;
+	list-style:none;
+	padding-left:0px !important;
+	width:70%;
+	float:left;
+	margin-top:20px;
+}
+ul.legend{
+	width:20%;
+	float:right;
+	list-style:none;
+	padding-left:0px !important;
+}
+ul.legend li p{
+	margin-bottom:0px;
+	margin-top:5px;
+	display:table;
+	vertical-align:middle;
+}
+ul.legend li svg{
+	width:18px;
+	vertical-align:middle;
+	display:table-cell;
+	overflow:visible;
+	color:#1da1f2;
+}
+ul.legend li small{
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:10px;
+}
+ul.subscriptions li{
+	display:table-cell;
+	width:33.3%;
+	vertical-align:middle;
+}
+ul.subscriptions li.psmusic{
+	width:50%;
+	text-align:center;
+}
+ul.subscriptions li.psvideo{
+	width:50%;
+	text-align:center;
+}
+ul.subscriptions li.psplus{
+margin-top:40px;
+}
+ul.subscriptions li span{
+	width:60px;
+	height:60px;
+	display:block;
+	border-radius: 50%;
+	margin: 0px auto;
+	vertical-align:middle;
+  }

@@ -1,0 +1,51 @@
+.div-body{
+  height:auto;
+  width:100%;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C9C7C5;
+  margin:25px 10px 0px 10px;
+  border-radius:7.5px;
+  color:#706E6B;
+  min-height:140px;
+}
+.piechart svg{
+  max-width:60% !important;
+}
+.div-body svg{
+  max-width:200px;
+}
+.gameTable {
+  width:100%;
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+}
+.gameTable ul{
+  list-style:none;
+  font-size:12px;
+  padding-left:0px;
+}
+.gameTable td.piechart{
+  text-align:center;
+}
+.gameTable td.piechart svg{
+  margin:0px auto;
+}
+.gameTable ul li {
+	padding: 2px 6px 4px;
+    border-radius: 3px;
+      text-transform: capitalize;
+      margin-bottom:5px;
+      color:#514F4D;
+}
+
+.gameTable ul li.legend li{
+  width:70%;
+  float:left;
+}
+.gameTable ul li.legend span{
+width:30%;
+float:right;
+}

@@ -1,0 +1,32 @@
+.div-body-interest {
+ height:auto;
+ width:100%;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C9C7C5;
+  margin:25px 10px 0px 10px;
+  border-radius:7.5px;
+  color:#706E6B;
+  min-height:140px;
+}
+.div-body-interest ul {
+  list-style:none;
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.div-body-interest ul li{
+ display:inline; 
+ width:auto;
+ float:left;
+ margin:0px 5px 5px 0px;
+}
+.div-body-interest ul li .mdc-chip{
+	padding: 2px 8px 4px;
+    background-color: #daf2ff;
+    border-radius: 3px;
+}
+.div-body-interest ul li .mdc-chip span{
+	text-transform: capitalize;
+}

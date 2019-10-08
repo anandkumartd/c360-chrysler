@@ -1,0 +1,104 @@
+.email, .phone, .gender, .birth{
+  display:table;
+  vertical-align:middle;
+}
+.email, .phone, .gender{
+margin-bottom:0px;
+}
+.phone, .gender, .birth{
+	margin-top:0px;
+}
+.name{
+	text-align:center;
+	font-weight:600;
+}
+.emailIcon, .emailText, .phoneIcon, .phoneText, .genderIcon, .genderText, .birthIcon, .birthText{
+ display:table-cell;
+height:100%;
+color: #706E6B;
+font-size: 14px;
+}
+.emailText, .phoneText, .genderText, .birthText{
+	vertical-align:top;
+    word-break: break-word;
+}
+.emailIcon, .phoneIcon, .birthIcon{
+vertical-align:middle;
+}
+.emailIcon svg, .phoneIcon svg, .genderIcon svg, .birthicon svg{
+	font-size: 24px;
+    margin-top: 2px;
+}
+.emailText, .phoneText, .genderText, .birthText{
+	padding-left:0px;
+}
+.address{
+color: #706E6B;
+font-size: 14px;
+margin-top:25px;
+text-transform:capitalize;
+}
+.socials ul{
+	list-style:none;
+	padding-left:0px;
+	display:table
+}
+.socials ul li{
+	display:table-cell;
+	width:20%;
+	vertical-align:middle;
+}
+.socials ul li svg{
+	font-size:30px;
+	width:80%;
+	height:auto;
+}
+.socials ul li:nth-child(2){
+	text-align:left;
+}
+.socials ul li:nth-child(3){
+	text-align:center;
+}
+.socials ul li:nth-child(4){
+	text-align:right;
+}
+.socials ul li:last-child{
+	text-align:right;
+}
+.socials ul li.inactive {
+	color:#DDDBDA;
+}
+.socials ul li.facebook.active {
+	color:#39659c;
+}
+.socials ul li.linkedin.active {
+	color:#0077b5;
+}
+.socials ul li.pinterest.active {
+	color:#c8232c;
+}
+.socials ul li.reddit.active {
+	color:#ff4301;
+}
+.socials ul li.twitter.active {
+	color:#1da1f2;
+}
+.socials ul li:first-child{
+	text-align:left;
+}
+.socials ul li:first-child svg{
+	width:70%;
+}
+.socials ul li:nth-child(2) svg{
+	width:70%;
+}
+.socials ul li:last-child svg{
+	width:80%;
+}
+.socials ul li:nth-child(3) svg{
+	width:70%;
+}
+.socials ul li:nth-child(4) svg{
+	width:80%;
+}
+

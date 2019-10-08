@@ -1,0 +1,9 @@
+.leaflet-container {
+    height: 400px;
+   width: calc(100vw - 430px);
+    margin: 10px;
+}
+
+ .leaflet-control-zoom{
+     display:none !important;
+ } 

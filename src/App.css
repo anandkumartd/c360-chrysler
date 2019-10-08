@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#root{
+  width:90%;
+  padding:72px;
+}
+.profileitem p{
+  font-size:14px;
+  font-family: 'Lato', sans-serif;
+}
+.MuiGrid-item a{
+  color:#303133;
+  text-decoration:none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.MuiGrid-item.tile{
+  width:20%;
+}
+.profilelink{
+  width:100%;
+  height:100%;
+  border:0px;
+  background-color:transparent;
+  padding:0px;
+  cursor:pointer;
+}
+.profilelink:focus{
+  outline:0;
+}
+.MuiDialog-paperScrollPaper{
+  width:95%;
+  height:95%;
+}
+.MuiDialogTitle-root h6{
+  text-align:center;
+}
+.MuiDialogContent-root .MuiGrid-container{
+height:100%;
+}
+.Dialog{
+  height:100%;
+}
+.leftFrame{
+  display:block;
+  position:fixed;
+  width:250px;
+  float:left;
+  height:auto;
+  overflow:hidden;
+}
+.rightFrame{
+  display: block;
+    width: calc(100% - 330px);
+    float: right;
+}
+.frameButton{
+ background-color: #2d9cdb;
+    color: #ffffff;
+    text-transform:none;
+    padding: 6px 12px;
+    min-width: 80px;
+    margin-right:20px;
+   font-size:13px;
+    font-weight:400;
+    border:0px;
+    border-radius:4px;
+}
+.DialogContent{
+  flex:none !important;
+}
+.MuiDialog-scrollPaper{
+  display:block !important;
+  margin:0px auto;
+}
+.searchbar{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+.searchbar .SearchBar-root-1, .searchbar .MuiPaper-elevation1.jss1.MuiPaper-rounded{
+  margin: 0px auto;
+  width: 500px !important;
+  display: inline-block !important;
+}
+.searchbar .SearchBar-iconButton-2, .searchbar .MuiButtonBase-root.jss2.jss3 ,.searchbar .MuiButtonBase-root.jss2.jss5{ 
+  display:none;
+}
+.searchbar .MuiButton-containedPrimary{
+  display: inline-block;
+    margin-left: 10px;
+    background-color: #2d9cdb;
+  color: #ffffff;
+  text-transform: none;
+  padding: 6px 12px;
+  min-width: 100px;
+  margin-right: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  border: 0px;
+  border-radius: 4px;
+  min-height:48px;
+}
+.searchbar .SearchBar-searchContainer-8{
+  height:100%;
+}
+.searchbar .jss1 .jss8, .searchbar .jss1 .jss7{
+  height:100%;
+}
+.searchbar .SearchBar-input-7{
+  height:100%;
+}
+.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(3),
+.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(4),
+.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(5)
+{
+  pointer-events: none !important;
+}
+
+
+@media only screen and (max-height: 680px) and (min-width: 480px){
+  .MuiDialog-paperScrollPaper{
+    max-height: calc(100% - 48px) !important;
+    }
+}
+.MuiDialog-scrollPaper .MuiDialog-paper{
+  margin:0px auto;
+  margin-top:48px !important;
+  height:100%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**.MuiTabs-root .MuiButtonBase-root:not(.Mui-selected){
+  pointer-events: none;
+}**/
+@media only screen and (min-width: 1360px) and (max-width: 1480px){
+  .chartjs-render-monitor{
+    max-width:400px;
+    width:400px !important;
+  }
+}
+@media only screen and (max-width: 1210px){
+  .chartjs-render-monitor{
+    max-width:500px;
+    width:500px !important;
+  }
+}
+@media only screen and (max-width: 1360px){
+  #root {
+    width:auto !important;
+   }
+   .MuiGrid-grid-xs-3{
+    max-width: 33% !important;
+    flex-basis: 33% !important;
+   }
+   .profileitem p{
+     font-size:12px !important;
+   }
+   .gridWrapper .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6{
+     max-width:100% !important;
+     width:100% !important;
+   }
+   .gridWrapper .MuiGrid-container{
+     display:block !important;
+   }
+   .gridWrapper.dealership .tableSec.MuiGrid-grid-xs-12{
+     display:block !important;
+     flex:none !important;
+     width:auto !important;
+   }
+   .gridWrapper.dealership .tableSec.MuiGrid-grid-xs-12 .div-body{
+     width:auto !important;
+   }
+   
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+  
+  .sidebar .MuiPaper-root > div{
+    height:220px !important;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  
+  .reventTable h5{
+    font-size:20px !important;
+  }
+ }
+
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #root {
+     width:auto !important;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}

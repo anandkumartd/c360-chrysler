@@ -1,0 +1,74 @@
+{
+  "name": "nazanin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "@google/maps": "^0.5.5",
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
+    "@material/chips": "^3.0.0",
+    "axios": "^0.19.0",
+    "chart.js": "^2.8.0",
+    "dateformat": "^3.0.3",
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
+    "heatmap.js": "^2.0.5",
+    "http-proxy-middleware": "^0.19.1",
+    "leaflet": "^1.5.1",
+    "libphonenumber-js": "^1.7.21",
+    "material-ui-search-bar": "^1.0.0-beta.13",
+    "prop-types": "^15.7.2",
+    "randomcolor": "^0.5.4",
+    "react": "^16.8.6",
+    "react-bar-chart": "^0.1.2",
+    "react-chartjs-2": "^2.7.6",
+    "react-circular-progressbar": "^2.0.1",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-leaflet": "^2.4.0",
+    "react-leaflet-heatmap-layer": "^2.0.0",
+    "react-minimal-pie-chart": "^5.0.0",
+    "react-modal": "^3.8.2",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-skillbars": "^1.5.1",
+    "react-table": "^6.10.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "simpleheat": "^0.4.0",
+    "td-js-sdk": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "mock:api": "json-server --watch api/db.json --port 4000"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "eslint-plugin-babel": "^5.3.0"
+  }
+}

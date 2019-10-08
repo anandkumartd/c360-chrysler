@@ -1,0 +1,258 @@
+[
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_client_id",
+        "column": "td_client_id",
+        "value": "220c42bc-21cd-49ff-9d13-5e6bb7c0c784"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "pageviews",
+        "column": "pageviews",
+        "value": 134
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "first_name",
+        "column": "first_name",
+        "value": "Jean"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "last_name",
+        "column": "last_name",
+        "value": "Mee"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "gender",
+        "column": "gender",
+        "value": "Male"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "email",
+        "column": "email",
+        "value": "jmee5i@answers.com"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "phone",
+        "column": "phone",
+        "value": "299-766-2484"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "dob",
+        "column": "dob",
+        "value": "8/23/63"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "age",
+        "column": "age",
+        "value": 56
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "city",
+        "column": "city",
+        "value": "Chualar"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "lat",
+        "column": "lat",
+        "value": 36.6091836
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "lon",
+        "column": "lon",
+        "value": -121.3985386
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "number",
+        "column": "number",
+        "value": 34021
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "postcode",
+        "column": "postcode",
+        "value": 93925
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "state",
+        "column": "state",
+        "value": "CA"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "street",
+        "column": "street",
+        "value": "CHUALAR CANYON ROAD"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "contact_preference",
+        "column": "contact_preference",
+        "value": "SMS"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "facebook",
+        "column": "facebook",
+        "value": 0
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "linkedin",
+        "column": "linkedin",
+        "value": null
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "pinterest",
+        "column": "pinterest",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "reddit",
+        "column": "reddit",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "twitter",
+        "column": "twitter",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "ps_music",
+        "column": "ps_music",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "ps_now",
+        "column": "ps_now",
+        "value": 0
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "ps_plus",
+        "column": "ps_plus",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "ps_video",
+        "column": "ps_video",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "ps_vue",
+        "column": "ps_vue",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "game_category",
+        "column": "game_category",
+        "value": [
+            "Sports",
+            "Battle Royal",
+            "Platform"
+        ]
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "game_choice",
+        "column": "game_choice",
+        "value": [
+            "Grand Torismo",
+            "Fortnite",
+            "Crash Bandicoot"
+        ]
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "game_minutes",
+        "column": "game_minutes",
+        "value": [
+            188,
+            166,
+            153
+        ]
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "game_price",
+        "column": "game_price",
+        "value": [
+            30.62,
+            53.26,
+            21.76
+        ]
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_last_access_date",
+        "column": "td_last_access_date",
+        "value": "2019-07-26"
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16792",
+        "column": "td_predictive_score_16792",
+        "value": 32.97334313392639
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16792_train",
+        "column": "td_predictive_score_16792_train",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16782",
+        "column": "td_predictive_score_16782",
+        "value": 55.47603964805603
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16782_train",
+        "column": "td_predictive_score_16782_train",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16781",
+        "column": "td_predictive_score_16781",
+        "value": 38.429367542266846
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16781_train",
+        "column": "td_predictive_score_16781_train",
+        "value": 1
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16780",
+        "column": "td_predictive_score_16780",
+        "value": 58.45603346824646
+    },
+    {
+        "customerId": "0064a38be7dd5428a4b07411c633cb451e50df9f",
+        "name": "td_predictive_score_16780_train",
+        "column": "td_predictive_score_16780_train",
+        "value": 1
+    }
+]

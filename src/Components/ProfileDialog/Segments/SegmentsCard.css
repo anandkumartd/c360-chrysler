@@ -1,0 +1,124 @@
+table.segmentTable{
+    width:100%;
+}
+table.segmentTable td{
+    vertical-align:middle
+}
+table.segmentTable  ul{
+    list-style:none;
+    padding-left:0px;
+}
+table.segmentTable  ul li{
+line-height:20px;
+}
+.segmentName{
+    width:30%;
+    text-align:right;
+    font-size:13px;
+}
+.graphbar{
+    width:60%
+}
+.graphbar li {
+    height:12px;
+    border-radius:4px;
+    margin-bottom: 8px;
+    margin-top: 3px;
+
+}
+.segmentTable{
+    height:80%;
+    vertical-align:middle;
+}
+.segmentPop{
+    text-align:right;
+    width:8%;
+    font-size:13px;
+}
+.segmentName ul{
+    margin-right:10px;
+}
+.graphbar li span{
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.graphbar li span{
+    display:block;
+    height:100%;
+}
+.graphbar li {
+    background-color:#DDDBDA;
+}
+.graphbar li span.segment_999{
+background-color:#4BCA81;
+border-radius:4px;
+}
+.graphbar li span.segment_569 {
+    background-color:#56CCF2;
+    }
+.graphbar li span.segment_691{
+    background-color:#BB6BD9;
+}
+.graphbar li span.segment_275{
+    background-color:#FFB75D;
+}
+.graphbar li span.segment_424{
+    background-color:#EB5757;
+}
+.graphbar li span.segment_665{
+    background-color:#FF5DA3;
+}
+.graphbar li span.segment_432{
+    background-color:#567FF2;
+}
+.graphbar li span.segment_56{
+    background-color:#005773;
+}
+.graphbar li span.segment_411{
+    background-color:#AC65EE;
+}
+.graphbar li span.segment_687{
+    background-color:#F2D34A;
+}
+.graphbar li span.segment_572{
+    background-color:#E10D0D;
+}
+.graphbar li span.segment_426{
+    background-color:#5BACBB;
+}
+.graphbar li span.segment_673{
+background-color:#EA740B;
+}
+.graphbar li span.segment_270{
+    background-color:#066830;
+}
+.graphbar li span.segment_71{
+    background-color:#C61C85;
+}
+.graphbar li span.segment_951{
+    background-color: #957dad;
+}
+.graphbar li span.segment_510{
+    background-color: #6fffe9;
+}
+.graphbar li span.segment_493{
+    background-color: #ede7b1;
+}
+.graphbar li span.segment_279{
+    background-color:#ffaf92;
+}
+.graphbar li span.segment_495{
+    background-color: #ff876f;
+}
+.graphbar li span.segment_327{
+    background-color: #14a4f9;
+}
+.graphbar li span.segment_305{
+    background-color: #fece47;
+}
+.heading{
+    text-align:right;
+    font-size:11px;
+    color:#969492;
+}
+

@@ -1,0 +1,56 @@
+.CircularProgressbar {
+    max-width:100px;
+}
+ul.progressBars{
+list-style:none;
+padding-left:0px;
+width: 100%;
+text-align: center;
+height: auto;
+vertical-align: middle;
+margin-top:50px;
+}
+ul.progressBars li{
+    display:inline-block;
+    float:left;
+    width:25%;
+    text-align:center;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+    stroke-width:2px;
+    opacity:0.5;
+}
+.CircularProgressbar .CircularProgressbar-path{
+    stroke-width:5px;
+}
+ul.progressBars li:first-child .CircularProgressbar .CircularProgressbar-trail{
+ stroke:#219653;
+}
+ul.progressBars li:first-child .CircularProgressbar-path{
+stroke:#219653;
+}
+ul.progressBars li:nth-child(2) .CircularProgressbar .CircularProgressbar-trail{
+    stroke:#005773;
+}
+ul.progressBars li:nth-child(2) .CircularProgressbar-path{
+stroke:#005773;
+}
+ul.progressBars li:nth-child(3) .CircularProgressbar .CircularProgressbar-trail{
+stroke:#870500;
+}
+ul.progressBars li:nth-child(3) .CircularProgressbar-path{
+stroke:#870500;
+}
+ul.progressBars li:nth-child(4) .CircularProgressbar .CircularProgressbar-trail{
+    stroke:#F2994A;
+    }
+    ul.progressBars li:nth-child(4) .CircularProgressbar-path{
+    stroke:#F2994A;
+    }
+    .CircularProgressbar .CircularProgressbar-text {
+        fill: #514F4D;
+        font-size: 16px;
+    }
+    ul.progressBars li p{
+        font-size:13px;
+    }
