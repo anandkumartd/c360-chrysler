@@ -16,7 +16,7 @@ import {
  var proxyURL = "https://fierce-ridge-46359.herokuapp.com/"
 axios.defaults.baseURL = proxyURL+"https://api-staging-cdp.treasuredata.com"; 
 axios.defaults.headers.common["Authorization"] =
-"TD1 1199/ca445d86e9cbd277d798cd4ee23849d230e42745";
+"TD1 1199/2fcd68b917650f65455abe67f452fe753ea5b32b";
  axios.get("/audiences/215893/predictive_segments/"+ attrID+"/")
    .then(response => {
 

@@ -9,7 +9,7 @@ import Parser from "../utils/parsers/Parser";
 var Treasure = require('td-js-sdk')
 var td = new Treasure({
         database: 'c360',
-        writeKey: '1199/a820ff5a25e36501cc8651472f667d80231611ef',
+        writeKey: '1199/1eda157d6684e2dd40d51a9ad1d7746a59f2629a',
         cdpHost: 'cdp-staging.in.treasuredata.com',
         host: 'in-staging.treasuredata.com'
       });

@@ -6,7 +6,7 @@ import "./SegmentsCard.css";
 var Treasure = require('td-js-sdk')
 var td = new Treasure({
         database: 'c360',
-        writeKey: '1199/a820ff5a25e36501cc8651472f667d80231611ef',
+        writeKey: '1199/1eda157d6684e2dd40d51a9ad1d7746a59f2629a',
         cdpHost: 'cdp-staging.in.treasuredata.com',
         host: 'in-staging.treasuredata.com'
       });
@@ -77,7 +77,7 @@ return_width: []
     var proxyURL = "https://fierce-ridge-46359.herokuapp.com/"
     axios.defaults.baseURL = proxyURL+"https://api-staging-cdp.treasuredata.com"; 
  axios.defaults.headers.common["Authorization"] =
-"TD1 1199/ca445d86e9cbd277d798cd4ee23849d230e42745";
+"TD1 1199/2fcd68b917650f65455abe67f452fe753ea5b32b";
   axios.get("/audiences/191732/segments/"+ segment +"/" )
     .then(response =>
       {
